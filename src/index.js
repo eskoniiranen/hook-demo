@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
-import { StateProvider } from './state'
-import reducer from './reducer'
+import App from './components/App'
+import { StateProvider } from './store'
+import reducer from './store/reducer'
 
 const initialState = {
   count: 0

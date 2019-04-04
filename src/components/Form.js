@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const FormExample = () => {
+const Form = () => {
   const useField = type => {
     const [value, setValue] = useState('')
     const onChange = event => setValue(event.target.value)
@@ -36,4 +36,4 @@ const FormExample = () => {
       </div>
     </div>
 }
-export default FormExample
+export default Form

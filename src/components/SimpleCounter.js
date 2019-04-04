@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const SimpleCounterExample = () => {
+const SimpleCounter = () => {
   const [count, setCount] = useState(0)
 
   return <div className="App-example">
@@ -10,4 +10,4 @@ const SimpleCounterExample = () => {
   </div>
 }
 
-export default SimpleCounterExample
+export default SimpleCounter

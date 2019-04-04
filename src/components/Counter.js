@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { StateContext } from './state'
-import Actions from './actions'
+import { StateContext } from '../store'
+import Actions from '../store/actions'
 
-const CounterExample = () => {
+const Counter = () => {
   const [{ count }, dispatch] = useContext(StateContext)
   
   return <div className="App-example">
@@ -12,4 +12,4 @@ const CounterExample = () => {
   </div>
 }
 
-export default CounterExample
+export default Counter

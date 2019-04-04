@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const FetchExample = () => {
+const Fetch = () => {
   const [doggos, setDoggos] = useState('')
   const [loading, setLoading] = useState(true)
 
@@ -15,7 +15,7 @@ const FetchExample = () => {
   }, [])
 
   return <ul className="App-example">
-    { loading 
+    {loading 
       ? (<span className="App-drama">loading...</span>)
       : doggos
         .filter(d => d.title.split(' ').length > 1)
@@ -28,4 +28,4 @@ const FetchExample = () => {
     </ul>
 }
 
-export default FetchExample
+export default Fetch

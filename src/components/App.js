@@ -1,9 +1,9 @@
 import React from 'react'
-import './App.css'
-import CounterExample from './CounterExample'
-import FormExample from './FormExample'
-import SimpleCounterExample from './SimpleCounterExample'
-import FetchExample from './FetchExample'
+import '../App.css'
+import Counter from './Counter'
+import Form from './Form'
+import SimpleCounter from './SimpleCounter'
+import Fetch from './Fetch'
 
 const App = () => {
   return <div className="App">
@@ -12,18 +12,18 @@ const App = () => {
     </header>
     <main className="App-content">
       <h2>Stateful counters</h2>
-      <SimpleCounterExample />
-      <SimpleCounterExample />
+      <SimpleCounter />
+      <SimpleCounter />
 
       <h2>Shared state counters</h2>
-      <CounterExample />
-      <CounterExample />
+      <Counter />
+      <Counter />
 
       <h2>Fetch example</h2>
-      <FetchExample />
+      <Fetch />
 
       <h2>Custom hook</h2>
-      <FormExample />
+      <Form />
 
     </main>
     <footer>All examples stolen!  See readme :-)</footer>
