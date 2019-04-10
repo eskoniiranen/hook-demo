@@ -6,7 +6,7 @@ const Counter = () => {
   const [{ count }, dispatch] = useContext(StateContext)
   
   return <div className="App-example">
-    <span className="space">Count: {count}</span>
+    <p>Count: {count}</p>
     <button type="button" onClick={() => dispatch(Actions.INCREMENT)}>+</button>
     <button type="button" onClick={() => dispatch(Actions.DECREMENT)}>-</button>
   </div>

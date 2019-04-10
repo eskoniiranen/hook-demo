@@ -29,10 +29,12 @@ const Form = () => {
       </form>
 
       <div className="App-drama"> 
-        {string.value}<br />
-        {number.value}<br />
-        {date.value}<br />
-        {email.value}<br />
+        {`
+          ${string.value}
+          ${number.value}
+          ${date.value}
+          ${email.value}
+        `}
       </div>
     </div>
 }

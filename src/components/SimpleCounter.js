@@ -4,7 +4,7 @@ const SimpleCounter = () => {
   const [count, setCount] = useState(0)
 
   return <div className="App-example">
-    <span className="space">Count: {count}</span>
+    <p>Count: {count}</p>
     <button onClick={() => setCount(count + 1)}>+</button>
     <button onClick={() => setCount(count - 1)}>-</button>
   </div>
