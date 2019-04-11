@@ -15,12 +15,12 @@ const App = () => {
       <SimpleCounter />
       <SimpleCounter />
 
+      <h2>Fetch example</h2>
+      <Fetch />
+
       <h2>Shared state counters</h2>
       <Counter />
       <Counter />
-
-      <h2>Fetch example</h2>
-      <Fetch />
 
       <h2>Custom hook</h2>
       <Form />

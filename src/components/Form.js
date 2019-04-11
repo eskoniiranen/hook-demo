@@ -13,19 +13,21 @@ const Form = () => {
   const date = useField('date')
   const email = useField('email')
 
-  return <div className="App-example">
+  return (
+    <div className="App-example">
       <form>
-        <span className="space">String:</span>
-        <input {...string} />
-        <br />
-        <span className="space">Number:</span>
-        <input {...number} />
-        <br />
-        <span className="space">Date:</span>
-        <input {...date} />
-        <br />
-        <span className="space">Email:</span>
-        <input {...email} />
+        <span>String:
+          <input {...string} />
+        </span>
+        <span className="space">Number:
+          <input {...number} />
+        </span>
+        <span className="space">Date:
+          <input {...date} />
+        </span>
+        <span className="space">Email:
+          <input {...email} />
+        </span>
       </form>
 
       <div className="App-drama"> 
@@ -36,6 +38,6 @@ const Form = () => {
           ${email.value}
         `}
       </div>
-    </div>
+    </div>)
 }
 export default Form
