@@ -19,13 +19,13 @@ const Form = () => {
         <span>String:
           <input {...string} />
         </span>
-        <span className="space">Number:
+        <span>Number:
           <input {...number} />
         </span>
-        <span className="space">Date:
+        <span>Date:
           <input {...date} />
         </span>
-        <span className="space">Email:
+        <span>Email:
           <input {...email} />
         </span>
       </form>
